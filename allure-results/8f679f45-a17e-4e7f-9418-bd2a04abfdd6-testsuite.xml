@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620216800073' stop='1620216810101'>
+    <name>Testing Data Tables</name>
+    <title>Testing Data Tables</title>
+    <test-cases>
+        <test-case start='1620216800074' status='broken' stop='1620216810100'>
+            <name>Sort by LastName</name>
+            <title>Sort by LastName</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call $$ on element with selector "//table[@id="table2"]" because element wasn't found</message>
+                <stack-trace>Error: Can't call $$ on element with selector "//table[@id="table2"]" because element wasn't found
+                    at Object.implicitWait [as default] (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\webdriverio\build\middlewares.js:19:29)
+                    at async Element.runCommandWithHooks (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.elementErrorHandlerCallback (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at Table.getParams (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\core\ui\controls\Table.js:9:29)
+                    at DataTables.firstTry (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\pages\tablesPage.js:9:16)
+                    at Context.&lt;anonymous> (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\test\specs\dataTablesPage.spec.js:7:20)
+                    at Context.executeSync (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

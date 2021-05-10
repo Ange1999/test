@@ -1,0 +1,99 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1619690828412' stop='1619690857705'>
+    <name>Check new Email</name>
+    <title>Check new Email</title>
+    <test-cases>
+        <test-case start='1619690828412' status='broken' stop='1619690838453'>
+            <name>Creating message and checking content</name>
+            <title>Creating message and checking content</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "//span[contains(@class,'compose-button')]" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//span[contains(@class,'compose-button')]" because element wasn't found
+                    at Object.implicitWait [as default] (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\webdriverio\build\middlewares.js:19:29)
+                    at async Element.runCommandWithHooks (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.elementErrorHandlerCallback (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at CreateMessage.createLetter (C:\Users\a.dzerman\Desktop\new\mastery_week_3\test\pageobjects\forms\createLetter.js:11:29)
+                    at Context.&lt;anonymous> (C:\Users\a.dzerman\Desktop\new\mastery_week_3\test\specs\newEmail.spec.js:9:27)
+                    at Context.executeSync (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1619690838454' status='broken' stop='1619690857699'>
+            <name>Sending message</name>
+            <title>Sending message</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>read ECONNRESET</message>
+                <stack-trace>RequestError: read ECONNRESET
+                    at ClientRequest.&lt;anonymous> (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\got\dist\source\core\index.js:956:111)
+                    at ClientRequest.origin.emit (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\@szmarczak\http-timer\dist\source\index.js:39:20)
+                    at Socket.socketErrorListener (_http_client.js:469:9)
+                    at emitErrorNT (internal/streams/destroy.js:106:8)
+                    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+                    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+                    at Browser.runCommandWithHooks (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Browser.wrapCommandFn (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at global.$ (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\@wdio\runner\build\index.js:189:42)
+                    at SendNewMessage.get draftsLink [as draftsLink] (C:\Users\a.dzerman\Desktop\new\mastery_week_3\test\pageobjects\sendEmail.js:4:31)
+                    at SendNewMessage.sendLetterFromDrafts (C:\Users\a.dzerman\Desktop\new\mastery_week_3\test\pageobjects\sendEmail.js:16:13)
+                    at Context.&lt;anonymous> (C:\Users\a.dzerman\Desktop\new\mastery_week_3\test\specs\newEmail.spec.js:14:23)
+                    at Context.executeSync (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1619690857701' status='broken' stop='1619690857705'>
+            <name>Checking message delete from Drafts and add this message to Sent</name>
+            <title>Checking message delete from Drafts and add this message to Sent</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>connect ECONNREFUSED 127.0.0.1:9515</message>
+                <stack-trace>RequestError: connect ECONNREFUSED 127.0.0.1:9515
+                    at ClientRequest.&lt;anonymous> (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\got\dist\source\core\index.js:956:111)
+                    at ClientRequest.origin.emit (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\@szmarczak\http-timer\dist\source\index.js:39:20)
+                    at Socket.socketErrorListener (_http_client.js:469:9)
+                    at emitErrorNT (internal/streams/destroy.js:106:8)
+                    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+                    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+                    at Browser.runCommandWithHooks (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Browser.wrapCommandFn (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at global.$ (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\@wdio\runner\build\index.js:189:42)
+                    at SendNewMessage.get sentMessagesLink [as sentMessagesLink] (C:\Users\a.dzerman\Desktop\new\mastery_week_3\test\pageobjects\sendEmail.js:8:37)
+                    at SendNewMessage.checkTheLetterIsAtSentMessages (C:\Users\a.dzerman\Desktop\new\mastery_week_3\test\pageobjects\sendEmail.js:23:14)
+                    at Context.&lt;anonymous> (C:\Users\a.dzerman\Desktop\new\mastery_week_3\test\specs\newEmail.spec.js:17:23)
+                    at Context.executeSync (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

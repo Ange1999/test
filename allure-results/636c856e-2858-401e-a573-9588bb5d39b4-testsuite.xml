@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620045378321' stop='1620045381300'>
+    <name>Testing JS alert</name>
+    <title>Testing JS alert</title>
+    <test-cases>
+        <test-case start='1620045378322' status='passed' stop='1620045381249'>
+            <name>Cheking alert message</name>
+            <title>Cheking alert message</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1620045381250' status='broken' stop='1620045381299'>
+            <name>Cheking confirm</name>
+            <title>Cheking confirm</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>browser.alertAccept is not a function</message>
+                <stack-trace>TypeError: browser.alertAccept is not a function
+                    at JsAlert.checkConfirm (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\pages\jsAlertPage.js:18:13)
+                    at Context.&lt;anonymous> (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\test\specs\jsAlerts.spec.js:11:20)
+                    at Context.executeSync (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1620045381299' status='passed' stop='1620045381300'>
+            <name>Cheking prompt</name>
+            <title>Cheking prompt</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

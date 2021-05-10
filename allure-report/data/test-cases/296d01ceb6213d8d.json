@@ -1,0 +1,82 @@
+{
+  "uid" : "296d01ceb6213d8d",
+  "name" : "Login to the mail box with valid exist data",
+  "fullName" : "Email check.Login to the mail box with valid exist data",
+  "historyId" : "220dfa022934c37993a31db4ca86e7c7",
+  "time" : {
+    "start" : 1619689658306,
+    "stop" : 1619689661403,
+    "duration" : 3097
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Email check"
+  }, {
+    "name" : "testClass",
+    "value" : "Email check"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login to the mail box with valid exist data"
+  }, {
+    "name" : "package",
+    "value" : "Email check"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4659f57dfda2604a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619689417993,
+        "stop" : 1619689421071,
+        "duration" : 3078
+      }
+    }, {
+      "uid" : "5d0dce2fbd178e95",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619688385491,
+        "stop" : 1619688390062,
+        "duration" : 4571
+      }
+    }, {
+      "uid" : "aaf37ea034656ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619688323856,
+        "stop" : 1619688326939,
+        "duration" : 3083
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "296d01ceb6213d8d.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

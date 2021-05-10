@@ -1,0 +1,251 @@
+{
+  "uid" : "711aafef7a8ab4f4",
+  "name" : "Login to the mail box with valid exist data",
+  "fullName" : "Email login/logout.Login to the mail box with valid exist data",
+  "historyId" : "58c19fcddde948d8d90f253109f6008",
+  "time" : {
+    "start" : 1619767646658,
+    "stop" : 1619767650195,
+    "duration" : 3537
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Email login/logout"
+  }, {
+    "name" : "testClass",
+    "value" : "Email login/logout"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login to the mail box with valid exist data"
+  }, {
+    "name" : "package",
+    "value" : "Email login/logout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "50132b09e2cbfd17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619766100624,
+        "stop" : 1619766104307,
+        "duration" : 3683
+      }
+    }, {
+      "uid" : "4ec0ce5e5f56dae0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619711594829,
+        "stop" : 1619711597971,
+        "duration" : 3142
+      }
+    }, {
+      "uid" : "7cf114f0ce02c44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619711091340,
+        "stop" : 1619711094316,
+        "duration" : 2976
+      }
+    }, {
+      "uid" : "58ccfb2fddcc2e73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619707419712,
+        "stop" : 1619707423089,
+        "duration" : 3377
+      }
+    }, {
+      "uid" : "b3bafc805a3de961",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619705720176,
+        "stop" : 1619705723321,
+        "duration" : 3145
+      }
+    }, {
+      "uid" : "3154ea61a6b32487",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619703927629,
+        "stop" : 1619703930753,
+        "duration" : 3124
+      }
+    }, {
+      "uid" : "203daf2628a8c4e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619703817623,
+        "stop" : 1619703821227,
+        "duration" : 3604
+      }
+    }, {
+      "uid" : "39ff5a99af088a1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619703303565,
+        "stop" : 1619703307052,
+        "duration" : 3487
+      }
+    }, {
+      "uid" : "ce86befe6439461e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619701779593,
+        "stop" : 1619701782796,
+        "duration" : 3203
+      }
+    }, {
+      "uid" : "df32550397856741",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619694184547,
+        "stop" : 1619694187711,
+        "duration" : 3164
+      }
+    }, {
+      "uid" : "903da11be6a6113c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619693851500,
+        "stop" : 1619693854682,
+        "duration" : 3182
+      }
+    }, {
+      "uid" : "f54cdee01bb4e57f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619693603657,
+        "stop" : 1619693606721,
+        "duration" : 3064
+      }
+    }, {
+      "uid" : "2da054adcb0009dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619692125494,
+        "stop" : 1619692129012,
+        "duration" : 3518
+      }
+    }, {
+      "uid" : "ba0c211d5f4e5d83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619691965424,
+        "stop" : 1619691968891,
+        "duration" : 3467
+      }
+    }, {
+      "uid" : "a1e864903bab2356",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619691965424,
+        "stop" : 1619691969247,
+        "duration" : 3823
+      }
+    }, {
+      "uid" : "fea362b2ee2447e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619691761457,
+        "stop" : 1619691764941,
+        "duration" : 3484
+      }
+    }, {
+      "uid" : "8f391cde894eaf11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619691561856,
+        "stop" : 1619691569360,
+        "duration" : 7504
+      }
+    }, {
+      "uid" : "663596be4ace7589",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619691515823,
+        "stop" : 1619691518845,
+        "duration" : 3022
+      }
+    }, {
+      "uid" : "2664e16a31d3cf05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619691361483,
+        "stop" : 1619691365008,
+        "duration" : 3525
+      }
+    }, {
+      "uid" : "ff899a04eaaf2abc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619691001449,
+        "stop" : 1619691004747,
+        "duration" : 3298
+      }
+    }, {
+      "uid" : "63c554ddfecb348d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619690984191,
+        "stop" : 1619690987720,
+        "duration" : 3529
+      }
+    }, {
+      "uid" : "d560c0f10c4a2175",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619690862644,
+        "stop" : 1619690865912,
+        "duration" : 3268
+      }
+    }, {
+      "uid" : "6a359389343ed888",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619690828292,
+        "stop" : 1619690831400,
+        "duration" : 3108
+      }
+    }, {
+      "uid" : "742a4050fc8ba920",
+      "status" : "broken",
+      "statusDetails" : "element (\"//div[@id='sideBarContent']\") still not existing after 10000ms",
+      "time" : {
+        "start" : 1619690780138,
+        "stop" : 1619690791565,
+        "duration" : 11427
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "711aafef7a8ab4f4.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

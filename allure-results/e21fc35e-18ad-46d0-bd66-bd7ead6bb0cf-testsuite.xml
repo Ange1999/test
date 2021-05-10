@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620136262617' stop='1620136275028'>
+    <name>Testing Dropdown List</name>
+    <title>Testing Dropdown List</title>
+    <test-cases>
+        <test-case start='1620136262617' status='failed' stop='1620136275027'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $(`//option[@value="1"]`) to have attribute selected
+                
+                Expected: "selected"
+                Received: "true"</message>
+                <stack-trace>Error: Expect $(`//option[@value="1"]`) to have attribute selected
+                
+                Expected: "selected"
+                Received: "true"
+                    at DropdownList.selectOption (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\pages\dropDownPage.js:12:37)
+                    at Context.&lt;anonymous> (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\test\specs\dropDown.spec.js:7:22)
+                    at Context.executeSync (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

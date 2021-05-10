@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620292115054' stop='1620292118737'>
+    <name>Testing Dynamic Controls</name>
+    <title>Testing Dynamic Controls</title>
+    <test-cases>
+        <test-case start='1620292115055' status='broken' stop='1620292118736'>
+            <name>Checking checkbox</name>
+            <title>Checking checkbox</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>message.waitForDisplayed is not a function</message>
+                <stack-trace>TypeError: message.waitForDisplayed is not a function
+                    at DynamicControl.workingWithCheckbox (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\pages\dynamicControlsPage.js:16:17)
+                    at Context.&lt;anonymous> (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\test\specs\dynamicControls.spec.js:7:29)
+                    at Context.executeSync (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

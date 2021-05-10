@@ -1,0 +1,112 @@
+{
+  "uid" : "f0c3710ffe2d9c36",
+  "name" : "Creating message and checking content",
+  "fullName" : "Check new Email.Creating message and checking content",
+  "historyId" : "47ab53e032751e74a5a9e07d5d9868fd",
+  "time" : {
+    "start" : 1619767650203,
+    "stop" : 1619767652704,
+    "duration" : 2501
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Check new Email"
+  }, {
+    "name" : "testClass",
+    "value" : "Check new Email"
+  }, {
+    "name" : "testMethod",
+    "value" : "Creating message and checking content"
+  }, {
+    "name" : "package",
+    "value" : "Check new Email"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d71abd390935db6f",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//span[contains(@class,'compose-button')]\" because element wasn't found",
+      "time" : {
+        "start" : 1619766100624,
+        "stop" : 1619766110667,
+        "duration" : 10043
+      }
+    }, {
+      "uid" : "b3a51aa6cc5099e1",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//span[contains(@class,'compose-button')]\" because element wasn't found",
+      "time" : {
+        "start" : 1619711594828,
+        "stop" : 1619711604880,
+        "duration" : 10052
+      }
+    }, {
+      "uid" : "10b8238ac873b2e7",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//span[contains(@class,'compose-button')]\" because element wasn't found",
+      "time" : {
+        "start" : 1619711091173,
+        "stop" : 1619711101210,
+        "duration" : 10037
+      }
+    }, {
+      "uid" : "9b4f8b16d15771bb",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//span[contains(@class,'compose-button')]\" because element wasn't found",
+      "time" : {
+        "start" : 1619690862771,
+        "stop" : 1619690872801,
+        "duration" : 10030
+      }
+    }, {
+      "uid" : "5f248eedf28553b4",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//span[contains(@class,'compose-button')]\" because element wasn't found",
+      "time" : {
+        "start" : 1619690828412,
+        "stop" : 1619690838453,
+        "duration" : 10041
+      }
+    }, {
+      "uid" : "9645219b792ecc29",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//span[contains(@class,'compose-button')]\" because element wasn't found",
+      "time" : {
+        "start" : 1619690780205,
+        "stop" : 1619690790240,
+        "duration" : 10035
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f0c3710ffe2d9c36.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

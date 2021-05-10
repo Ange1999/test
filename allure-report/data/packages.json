@@ -1,0 +1,121 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Email check",
+    "children" : [ {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "296d01ceb6213d8d",
+      "parentUid" : "d2a58d0020c22b0464175ad6ee0d7c56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619689658306,
+        "stop" : 1619689661403,
+        "duration" : 3097
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Creating message and checking content",
+      "uid" : "642ce63bbb7b252e",
+      "parentUid" : "d2a58d0020c22b0464175ad6ee0d7c56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619689661403,
+        "stop" : 1619689663978,
+        "duration" : 2575
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Sending message",
+      "uid" : "f2b9d53a28f665fe",
+      "parentUid" : "d2a58d0020c22b0464175ad6ee0d7c56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619689663978,
+        "stop" : 1619689665306,
+        "duration" : 1328
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Checking message delete from Drafts and add this message to Sent",
+      "uid" : "a942cd59bee38cc4",
+      "parentUid" : "d2a58d0020c22b0464175ad6ee0d7c56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619689665306,
+        "stop" : 1619689667527,
+        "duration" : 2221
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    } ],
+    "uid" : "d2a58d0020c22b0464175ad6ee0d7c56"
+  }, {
+    "name" : "Email login/logout",
+    "children" : [ {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "711aafef7a8ab4f4",
+      "parentUid" : "1b733c1fc34fa598ec41aedd080af030",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619767646658,
+        "stop" : 1619767650195,
+        "duration" : 3537
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    } ],
+    "uid" : "1b733c1fc34fa598ec41aedd080af030"
+  }, {
+    "name" : "Check new Email",
+    "children" : [ {
+      "name" : "Creating message and checking content",
+      "uid" : "f0c3710ffe2d9c36",
+      "parentUid" : "1fbdafb178b1c769a931b9b189d5a663",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619767650203,
+        "stop" : 1619767652704,
+        "duration" : 2501
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Sending message",
+      "uid" : "f2cfe9d1542478e1",
+      "parentUid" : "1fbdafb178b1c769a931b9b189d5a663",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619767652704,
+        "stop" : 1619767654308,
+        "duration" : 1604
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Checking message delete from Drafts and add this message to Sent",
+      "uid" : "68406ed48c99536e",
+      "parentUid" : "1fbdafb178b1c769a931b9b189d5a663",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619767654308,
+        "stop" : 1619767656407,
+        "duration" : 2099
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    } ],
+    "uid" : "1fbdafb178b1c769a931b9b189d5a663"
+  } ]
+}

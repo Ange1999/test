@@ -1,0 +1,58 @@
+{
+  "uid" : "5f248eedf28553b4",
+  "name" : "Creating message and checking content",
+  "fullName" : "Check new Email.Creating message and checking content",
+  "historyId" : "47ab53e032751e74a5a9e07d5d9868fd",
+  "time" : {
+    "start" : 1619690828412,
+    "stop" : 1619690838453,
+    "duration" : 10041
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call click on element with selector \"//span[contains(@class,'compose-button')]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"//span[contains(@class,'compose-button')]\" because element wasn't found\n                    at Object.implicitWait [as default] (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\webdriverio\\build\\middlewares.js:19:29)\n                    at async Element.runCommandWithHooks (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Element.runCommandWithHooks (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Element.wrapCommandFn (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\webdriverio\\build\\middlewares.js:44:12)\n                    at CreateMessage.createLetter (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\test\\pageobjects\\forms\\createLetter.js:11:29)\n                    at Context.<anonymous> (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\test\\specs\\newEmail.spec.js:9:27)\n                    at Context.executeSync (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Check new Email"
+  }, {
+    "name" : "testClass",
+    "value" : "Check new Email"
+  }, {
+    "name" : "testMethod",
+    "value" : "Creating message and checking content"
+  }, {
+    "name" : "package",
+    "value" : "Check new Email"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5f248eedf28553b4.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

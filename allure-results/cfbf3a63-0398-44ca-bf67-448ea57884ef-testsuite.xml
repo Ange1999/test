@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620116945143' stop='1620117005155'>
+    <name>Testing checkbox</name>
+    <title>Testing checkbox</title>
+    <test-cases>
+        <test-case start='1620116945143' status='broken' stop='1620117005154'>
+            <name>Cheked first and second unchecked</name>
+            <title>Cheked first and second unchecked</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "Testing checkbox Cheked first and second unchecked" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\test\specs\checkbox.spec.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "Testing checkbox Cheked first and second unchecked" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\test\specs\checkbox.spec.js)
+                    at createTimeoutError (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\mocha\lib\errors.js:491:15)
+                    at Test.Runnable._timeoutError (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (internal/timers.js:554:17)
+                    at processTimers (internal/timers.js:497:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

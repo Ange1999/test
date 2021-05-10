@@ -1,0 +1,823 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "Sending message",
+      "uid" : "f2b9d53a28f665fe",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619689663978,
+        "stop" : 1619689665306,
+        "duration" : 1328
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "d560c0f10c4a2175",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619690862644,
+        "stop" : 1619690865912,
+        "duration" : 3268
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Creating message and checking content",
+      "uid" : "13edae5f89bbe00a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619689421071,
+        "stop" : 1619689423609,
+        "duration" : 2538
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Creating message and checking content",
+      "uid" : "a57c50cb9a55bca6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619688390063,
+        "stop" : 1619688392488,
+        "duration" : 2425
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Checking message delete from Drafts and add this message to Sent",
+      "uid" : "a942cd59bee38cc4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619689665306,
+        "stop" : 1619689667527,
+        "duration" : 2221
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "6a359389343ed888",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619690828292,
+        "stop" : 1619690831400,
+        "duration" : 3108
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "7cf114f0ce02c44",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619711091340,
+        "stop" : 1619711094316,
+        "duration" : 2976
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "58ccfb2fddcc2e73",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619707419712,
+        "stop" : 1619707423089,
+        "duration" : 3377
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "663596be4ace7589",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619691515823,
+        "stop" : 1619691518845,
+        "duration" : 3022
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Sending message",
+      "uid" : "133f9fe46d829eea",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619688329477,
+        "stop" : 1619688331225,
+        "duration" : 1748
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "5d0dce2fbd178e95",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619688385491,
+        "stop" : 1619688390062,
+        "duration" : 4571
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Creating message and checking content",
+      "uid" : "37cbb919edd1591f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619688326939,
+        "stop" : 1619688329477,
+        "duration" : 2538
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "50132b09e2cbfd17",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619766100624,
+        "stop" : 1619766104307,
+        "duration" : 3683
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Checking message delete from Drafts and add this message to Sent",
+      "uid" : "3efb48b69bf6cdcf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1619689424714,
+        "stop" : 1619689434877,
+        "duration" : 10163
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "f54cdee01bb4e57f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619693603657,
+        "stop" : 1619693606721,
+        "duration" : 3064
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "39ff5a99af088a1e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619703303565,
+        "stop" : 1619703307052,
+        "duration" : 3487
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "df32550397856741",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619694184547,
+        "stop" : 1619694187711,
+        "duration" : 3164
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "8f391cde894eaf11",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619691561856,
+        "stop" : 1619691569360,
+        "duration" : 7504
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Checking message delete from Drafts and add this message to Sent",
+      "uid" : "68406ed48c99536e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619767654308,
+        "stop" : 1619767656407,
+        "duration" : 2099
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "aaf37ea034656ba",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619688323856,
+        "stop" : 1619688326939,
+        "duration" : 3083
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "63c554ddfecb348d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619690984191,
+        "stop" : 1619690987720,
+        "duration" : 3529
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "2664e16a31d3cf05",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619691361483,
+        "stop" : 1619691365008,
+        "duration" : 3525
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "4ec0ce5e5f56dae0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619711594829,
+        "stop" : 1619711597971,
+        "duration" : 3142
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Sending message",
+      "uid" : "e3756df0752f514c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619688392488,
+        "stop" : 1619688394280,
+        "duration" : 1792
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "711aafef7a8ab4f4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619767646658,
+        "stop" : 1619767650195,
+        "duration" : 3537
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Creating message and checking content",
+      "uid" : "f0c3710ffe2d9c36",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619767650203,
+        "stop" : 1619767652704,
+        "duration" : 2501
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "ff899a04eaaf2abc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619691001449,
+        "stop" : 1619691004747,
+        "duration" : 3298
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Checking message delete from Drafts and add this message to Sent",
+      "uid" : "6e089525d82111d8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1619688331226,
+        "stop" : 1619688342079,
+        "duration" : 10853
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "903da11be6a6113c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619693851500,
+        "stop" : 1619693854682,
+        "duration" : 3182
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "fea362b2ee2447e5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619691761457,
+        "stop" : 1619691764941,
+        "duration" : 3484
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Sending message",
+      "uid" : "f08d8f9fa8a24893",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619689423609,
+        "stop" : 1619689424714,
+        "duration" : 1105
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "ce86befe6439461e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619701779593,
+        "stop" : 1619701782796,
+        "duration" : 3203
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "b3bafc805a3de961",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619705720176,
+        "stop" : 1619705723321,
+        "duration" : 3145
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Checking message delete from Drafts and add this message to Sent",
+      "uid" : "5bf5461db8312031",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619688394280,
+        "stop" : 1619688396350,
+        "duration" : 2070
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Sending message",
+      "uid" : "f2cfe9d1542478e1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619767652704,
+        "stop" : 1619767654308,
+        "duration" : 1604
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Creating message and checking content",
+      "uid" : "642ce63bbb7b252e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619689661403,
+        "stop" : 1619689663978,
+        "duration" : 2575
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "3154ea61a6b32487",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619703927629,
+        "stop" : 1619703930753,
+        "duration" : 3124
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "a1e864903bab2356",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619691965424,
+        "stop" : 1619691969247,
+        "duration" : 3823
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "4659f57dfda2604a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619689417993,
+        "stop" : 1619689421071,
+        "duration" : 3078
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "2da054adcb0009dd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619692125494,
+        "stop" : 1619692129012,
+        "duration" : 3518
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "203daf2628a8c4e5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619703817623,
+        "stop" : 1619703821227,
+        "duration" : 3604
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "296d01ceb6213d8d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619689658306,
+        "stop" : 1619689661403,
+        "duration" : 3097
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "742a4050fc8ba920",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1619690780138,
+        "stop" : 1619690791565,
+        "duration" : 11427
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "Checking message delete from Drafts and add this message to Sent",
+      "uid" : "6bc50247e07d5bcd",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1619766120704,
+        "stop" : 1619766130730,
+        "duration" : 10026
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Sending message",
+      "uid" : "766e959d2032b3f8",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1619711604881,
+        "stop" : 1619711614917,
+        "duration" : 10036
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Sending message",
+      "uid" : "3debc8a8962e835f",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1619690872802,
+        "stop" : 1619690882826,
+        "duration" : 10024
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Checking message delete from Drafts and add this message to Sent",
+      "uid" : "7e6ff6131ab6f4ee",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1619690800271,
+        "stop" : 1619690810290,
+        "duration" : 10019
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Sending message",
+      "uid" : "3752e91510d3f043",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1619711101210,
+        "stop" : 1619711111231,
+        "duration" : 10021
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Checking message delete from Drafts and add this message to Sent",
+      "uid" : "2ff4552494b97f93",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1619711111231,
+        "stop" : 1619711121253,
+        "duration" : 10022
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Creating message and checking content",
+      "uid" : "9645219b792ecc29",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1619690780205,
+        "stop" : 1619690790240,
+        "duration" : 10035
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Sending message",
+      "uid" : "c1710d1f4d490bc",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1619766110667,
+        "stop" : 1619766120703,
+        "duration" : 10036
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Creating message and checking content",
+      "uid" : "5f248eedf28553b4",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1619690828412,
+        "stop" : 1619690838453,
+        "duration" : 10041
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Sending message",
+      "uid" : "132561b565c80f81",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1619690838454,
+        "stop" : 1619690857699,
+        "duration" : 19245
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Creating message and checking content",
+      "uid" : "b3a51aa6cc5099e1",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1619711594828,
+        "stop" : 1619711604880,
+        "duration" : 10052
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Sending message",
+      "uid" : "3877605bf8d28ab9",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1619690790240,
+        "stop" : 1619690800270,
+        "duration" : 10030
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Creating message and checking content",
+      "uid" : "10b8238ac873b2e7",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1619711091173,
+        "stop" : 1619711101210,
+        "duration" : 10037
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Creating message and checking content",
+      "uid" : "9b4f8b16d15771bb",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1619690862771,
+        "stop" : 1619690872801,
+        "duration" : 10030
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Checking message delete from Drafts and add this message to Sent",
+      "uid" : "fbb39de54017f1ea",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1619711614918,
+        "stop" : 1619711624943,
+        "duration" : 10025
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Checking message delete from Drafts and add this message to Sent",
+      "uid" : "ae174312cd620b8d",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1619690857701,
+        "stop" : 1619690857705,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Creating message and checking content",
+      "uid" : "d71abd390935db6f",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1619766100624,
+        "stop" : 1619766110667,
+        "duration" : 10043
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    }, {
+      "name" : "Checking message delete from Drafts and add this message to Sent",
+      "uid" : "21309aef18252db",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1619690882826,
+        "stop" : 1619690892853,
+        "duration" : 10027
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  }, {
+    "name" : "0-2",
+    "children" : [ {
+      "name" : "Login to the mail box with valid exist data",
+      "uid" : "ba0c211d5f4e5d83",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619691965424,
+        "stop" : 1619691968891,
+        "duration" : 3467
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.93" ]
+    } ],
+    "uid" : "880a094af3dffab161e2023284569d6f"
+  } ]
+}

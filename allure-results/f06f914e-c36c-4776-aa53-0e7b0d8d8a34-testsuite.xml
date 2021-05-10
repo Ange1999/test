@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620219399367' stop='1620219400984'>
+    <name>Testing Data Tables</name>
+    <title>Testing Data Tables</title>
+    <test-cases>
+        <test-case start='1620219399368' status='broken' stop='1620219400982'>
+            <name>Sort by LastName</name>
+            <title>Sort by LastName</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>this.elements is not a function</message>
+                <stack-trace>TypeError: this.elements is not a function
+                    at Table.getParams (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\core\ui\controls\Table.js:9:21)
+                    at DataTables.firstTry (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\pages\tablesPage.js:14:15)
+                    at Context.&lt;anonymous> (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\test\specs\dataTablesPage.spec.js:8:20)
+                    at Context.executeSync (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

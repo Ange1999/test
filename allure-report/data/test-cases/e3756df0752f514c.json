@@ -1,0 +1,56 @@
+{
+  "uid" : "e3756df0752f514c",
+  "name" : "Sending message",
+  "fullName" : "Email check.Sending message",
+  "historyId" : "8b06550d9219175904c98a91c0e60ef9",
+  "time" : {
+    "start" : 1619688392488,
+    "stop" : 1619688394280,
+    "duration" : 1792
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Email check"
+  }, {
+    "name" : "testClass",
+    "value" : "Email check"
+  }, {
+    "name" : "testMethod",
+    "value" : "Sending message"
+  }, {
+    "name" : "package",
+    "value" : "Email check"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e3756df0752f514c.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

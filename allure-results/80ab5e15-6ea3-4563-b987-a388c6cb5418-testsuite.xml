@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620201735871' stop='1620201738323'>
+    <name>Testing File Uploader</name>
+    <title>Testing File Uploader</title>
+    <test-cases>
+        <test-case start='1620201735871' status='broken' stop='1620201738321'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>ENOENT: no such file or directory, open 'C:\Users\a.dzerman\Desktop\1212\additionalFiles\city.jpg'</message>
+                <stack-trace>Error: ENOENT: no such file or directory, open 'C:\Users\a.dzerman\Desktop\1212\additionalFiles\city.jpg'
+                    at Browser.runCommandWithHooks (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Browser.wrapCommandFn (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at FileUploader.loadPucture (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\pages\uploadPage.js:12:44)
+                    at Context.&lt;anonymous> (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\test\specs\upload.spec.js:8:26)
+                    at Context.executeSync (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

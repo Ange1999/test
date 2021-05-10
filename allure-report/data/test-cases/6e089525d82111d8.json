@@ -1,0 +1,58 @@
+{
+  "uid" : "6e089525d82111d8",
+  "name" : "Checking message delete from Drafts and add this message to Sent",
+  "fullName" : "Email check.Checking message delete from Drafts and add this message to Sent",
+  "historyId" : "e7843420ccece817d7812564ebc8fe95",
+  "time" : {
+    "start" : 1619688331226,
+    "stop" : 1619688342079,
+    "duration" : 10853
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//h2[contains(@class,\"thread__subject\")]`) to have text\n                \n                Expected: \"LOL!\"\n                Received: \"Jedi!\"",
+  "statusTrace" : "Error: Expect $(`//h2[contains(@class,\"thread__subject\")]`) to have text\n                \n                Expected: \"LOL!\"\n                Received: \"Jedi!\"\n                    at SendNewMessage.checkTheLetterIsAtSentMessages (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\test\\pageobjects\\sendEmail.js:27:39)\n                    at Context.<anonymous> (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\test\\specs\\email.spec.js:22:23)\n                    at Context.executeSync (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Email check"
+  }, {
+    "name" : "testClass",
+    "value" : "Email check"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checking message delete from Drafts and add this message to Sent"
+  }, {
+    "name" : "package",
+    "value" : "Email check"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6e089525d82111d8.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

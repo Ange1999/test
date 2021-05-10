@@ -1,0 +1,56 @@
+{
+  "uid" : "a57c50cb9a55bca6",
+  "name" : "Creating message and checking content",
+  "fullName" : "Email check.Creating message and checking content",
+  "historyId" : "a4d99c39e1c7a26591d71a64c23127b5",
+  "time" : {
+    "start" : 1619688390063,
+    "stop" : 1619688392488,
+    "duration" : 2425
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Email check"
+  }, {
+    "name" : "testClass",
+    "value" : "Email check"
+  }, {
+    "name" : "testMethod",
+    "value" : "Creating message and checking content"
+  }, {
+    "name" : "package",
+    "value" : "Email check"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a57c50cb9a55bca6.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

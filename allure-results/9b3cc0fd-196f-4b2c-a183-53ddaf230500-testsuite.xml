@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620204984886' stop='1620204992645'>
+    <name>Testing File Uploader</name>
+    <title>Testing File Uploader</title>
+    <test-cases>
+        <test-case start='1620204984886' status='broken' stop='1620204992645'>
+            <name>Load picture clicking at drag&amp;drop area</name>
+            <title>Load picture clicking at drag&amp;drop area</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>invalid element state
+                  (Session info: chrome=90.0.4430.93)</message>
+                <stack-trace>invalid element state
+                  (Session info: chrome=90.0.4430.93)
+                    at Object.getErrorFromResponseBody (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\webdriver\build\utils.js:189:12)
+                    at WebDriverRequest._request (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\webdriver\build\request.js:168:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\webdriverio\build\middlewares.js:23:32)
+                    at async Element.setValue (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\webdriverio\build\commands\element\setValue.js:30:5)
+                    at async Element.runCommandWithHooks (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.elementErrorHandlerCallback (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at FileUploader.loadPuctureClickingDragAndDrop (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\pages\uploadPage.js:20:37)
+                    at Context.&lt;anonymous> (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\test\specs\upload.spec.js:16:26)
+                    at Context.executeSync (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620027410382' stop='1620027412450'>
+    <name>Form test</name>
+    <title>Form test</title>
+    <test-cases>
+        <test-case start='1620027410382' status='broken' stop='1620027412449'>
+            <name>Input valid data</name>
+            <title>Input valid data</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>this.element.isDiplayed is not a function</message>
+                <stack-trace>TypeError: this.element.isDiplayed is not a function
+                    at Button.isDiplayed (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\core\ui\Element.js:18:25)
+                    at LoginPage.setInputFieldValue (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\pages\LoginPage.js:16:22)
+                    at Context.&lt;anonymous> (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\test\specs\loginPage.spec.js:12:19)
+                    at Context.executeSync (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

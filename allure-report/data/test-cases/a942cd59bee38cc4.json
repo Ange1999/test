@@ -1,0 +1,84 @@
+{
+  "uid" : "a942cd59bee38cc4",
+  "name" : "Checking message delete from Drafts and add this message to Sent",
+  "fullName" : "Email check.Checking message delete from Drafts and add this message to Sent",
+  "historyId" : "e7843420ccece817d7812564ebc8fe95",
+  "time" : {
+    "start" : 1619689665306,
+    "stop" : 1619689667527,
+    "duration" : 2221
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Email check"
+  }, {
+    "name" : "testClass",
+    "value" : "Email check"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checking message delete from Drafts and add this message to Sent"
+  }, {
+    "name" : "package",
+    "value" : "Email check"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3efb48b69bf6cdcf",
+      "status" : "broken",
+      "statusDetails" : "element (\"//span[@title = 'Переслать']\") still not existing after 10000ms",
+      "time" : {
+        "start" : 1619689424714,
+        "stop" : 1619689434877,
+        "duration" : 10163
+      }
+    }, {
+      "uid" : "5bf5461db8312031",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619688394280,
+        "stop" : 1619688396350,
+        "duration" : 2070
+      }
+    }, {
+      "uid" : "6e089525d82111d8",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`//h2[contains(@class,\"thread__subject\")]`) to have text\n                \n                Expected: \"LOL!\"\n                Received: \"Jedi!\"",
+      "time" : {
+        "start" : 1619688331226,
+        "stop" : 1619688342079,
+        "duration" : 10853
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a942cd59bee38cc4.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

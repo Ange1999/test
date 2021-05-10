@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620295585294' stop='1620295609542'>
+    <name>Testing Dynamic Controls</name>
+    <title>Testing Dynamic Controls</title>
+    <test-cases>
+        <test-case start='1620295585294' status='passed' stop='1620295592986'>
+            <name>Checking Remove/add</name>
+            <title>Checking Remove/add</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1620295592986' status='failed' stop='1620295609541'>
+            <name>Checking Enable/disable</name>
+            <title>Checking Enable/disable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect  to have property value
+                
+                Expected: false
+                Received: undefined</message>
+                <stack-trace>Error: Expect  to have property value
+                
+                Expected: false
+                Received: undefined
+                    at DynamicControl.workingWithEnableDisable (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\pages\dynamicControlsPage.js:32:27)
+                    at Context.&lt;anonymous> (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\test\specs\dynamicControls.spec.js:11:29)
+                    at Context.executeSync (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

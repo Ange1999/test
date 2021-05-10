@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620046000045' stop='1620046011727'>
+    <name>Testing JS alert</name>
+    <title>Testing JS alert</title>
+    <test-cases>
+        <test-case start='1620046000046' status='passed' stop='1620046001533'>
+            <name>Cheking alert message</name>
+            <title>Cheking alert message</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1620046001533' status='passed' stop='1620046001637'>
+            <name>Cheking confirm</name>
+            <title>Cheking confirm</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1620046001637' status='failed' stop='1620046011726'>
+            <name>Cheking prompt</name>
+            <title>Cheking prompt</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $(`//p[@id="result"]`) to have text
+                
+                Expected: "You entered: Use you mind"
+                Received: "You entered: null"</message>
+                <stack-trace>Error: Expect $(`//p[@id="result"]`) to have text
+                
+                Expected: "You entered: Use you mind"
+                Received: "You entered: null"
+                    at JsAlert.checkPrompt (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\pages\jsAlertPage.js:29:35)
+                    at Context.&lt;anonymous> (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\test\specs\jsAlerts.spec.js:16:20)
+                    at Context.executeSync (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

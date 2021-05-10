@@ -1,0 +1,58 @@
+{
+  "uid" : "3efb48b69bf6cdcf",
+  "name" : "Checking message delete from Drafts and add this message to Sent",
+  "fullName" : "Email check.Checking message delete from Drafts and add this message to Sent",
+  "historyId" : "e7843420ccece817d7812564ebc8fe95",
+  "time" : {
+    "start" : 1619689424714,
+    "stop" : 1619689434877,
+    "duration" : 10163
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//span[@title = 'Переслать']\") still not existing after 10000ms",
+  "statusTrace" : "Error: element (\"//span[@title = 'Переслать']\") still not existing after 10000ms\n                    at C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at async Element.runCommandWithHooks (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Element.runCommandWithHooks (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Element.wrapCommandFn (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\webdriverio\\build\\middlewares.js:44:12)\n                    at Element.waitForExist (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\webdriverio\\build\\commands\\element\\waitForExist.js:40:17)\n                    at Element.wrapCommandFn (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:60:23)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\webdriverio\\build\\middlewares.js:23:65)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at SendNewMessage.checkTheLetterIsAtSentMessages (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\test\\pageobjects\\sendEmail.js:26:43)\n                    at Context.<anonymous> (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\test\\specs\\email.spec.js:22:23)\n                    at Context.executeSync (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Email check"
+  }, {
+    "name" : "testClass",
+    "value" : "Email check"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checking message delete from Drafts and add this message to Sent"
+  }, {
+    "name" : "package",
+    "value" : "Email check"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3efb48b69bf6cdcf.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

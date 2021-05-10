@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620116589840' stop='1620116592386'>
+    <name>Testing An iFrame containing the TinyMCE WYSIWYG Editor</name>
+    <title>Testing An iFrame containing the TinyMCE WYSIWYG Editor</title>
+    <test-cases>
+        <test-case start='1620116589840' status='passed' stop='1620116592230'>
+            <name>Input value</name>
+            <title>Input value</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1620116592230' status='passed' stop='1620116592386'>
+            <name>Position style and check bold style</name>
+            <title>Position style and check bold style</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

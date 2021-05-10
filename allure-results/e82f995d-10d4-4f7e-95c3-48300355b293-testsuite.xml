@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620040383876' stop='1620040398620'>
+    <name>Testing Add/Remove Elements</name>
+    <title>Testing Add/Remove Elements</title>
+    <test-cases>
+        <test-case start='1620040383876' status='passed' stop='1620040397850'>
+            <name>Add Element</name>
+            <title>Add Element</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1620040397851' status='broken' stop='1620040398618'>
+            <name>Remove element</name>
+            <title>Remove element</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>read ECONNRESET</message>
+                <stack-trace>RequestError: read ECONNRESET
+                    at ClientRequest.&lt;anonymous> (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\got\dist\source\core\index.js:956:111)
+                    at ClientRequest.origin.emit (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@szmarczak\http-timer\dist\source\index.js:39:20)
+                    at Socket.socketErrorListener (_http_client.js:469:9)
+                    at emitErrorNT (internal/streams/destroy.js:106:8)
+                    at emitErrorCloseNT (internal/streams/destroy.js:74:3)
+                    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+                    at Browser.runCommandWithHooks (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Browser.wrapCommandFn (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at global.$ (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\runner\build\index.js:189:42)
+                    at Button.get element [as element] (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\core\ui\Element.js:9:16)
+                    at Button.click (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\core\ui\controls\Button.js:9:14)
+                    at AddRemoveElems.deleteElement (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\pages\addRemoveElemPage.js:16:23)
+                    at Context.&lt;anonymous> (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\test\specs\removeEl.spec.js:10:25)
+                    at Context.executeSync (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

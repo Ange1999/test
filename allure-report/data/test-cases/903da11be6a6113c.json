@@ -1,0 +1,56 @@
+{
+  "uid" : "903da11be6a6113c",
+  "name" : "Login to the mail box with valid exist data",
+  "fullName" : "Email login/logout.Login to the mail box with valid exist data",
+  "historyId" : "58c19fcddde948d8d90f253109f6008",
+  "time" : {
+    "start" : 1619693851500,
+    "stop" : 1619693854682,
+    "duration" : 3182
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Email login/logout"
+  }, {
+    "name" : "testClass",
+    "value" : "Email login/logout"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login to the mail box with valid exist data"
+  }, {
+    "name" : "package",
+    "value" : "Email login/logout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "903da11be6a6113c.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

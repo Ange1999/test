@@ -1,0 +1,112 @@
+{
+  "uid" : "68406ed48c99536e",
+  "name" : "Checking message delete from Drafts and add this message to Sent",
+  "fullName" : "Check new Email.Checking message delete from Drafts and add this message to Sent",
+  "historyId" : "fcef9055112bb38cc4850ad4e28dc2e1",
+  "time" : {
+    "start" : 1619767654308,
+    "stop" : 1619767656407,
+    "duration" : 2099
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Check new Email"
+  }, {
+    "name" : "testClass",
+    "value" : "Check new Email"
+  }, {
+    "name" : "testMethod",
+    "value" : "Checking message delete from Drafts and add this message to Sent"
+  }, {
+    "name" : "package",
+    "value" : "Check new Email"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6bc50247e07d5bcd",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//a[@href=\"/sent/\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1619766120704,
+        "stop" : 1619766130730,
+        "duration" : 10026
+      }
+    }, {
+      "uid" : "fbb39de54017f1ea",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//a[@href=\"/sent/\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1619711614918,
+        "stop" : 1619711624943,
+        "duration" : 10025
+      }
+    }, {
+      "uid" : "2ff4552494b97f93",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//a[@href=\"/sent/\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1619711111231,
+        "stop" : 1619711121253,
+        "duration" : 10022
+      }
+    }, {
+      "uid" : "21309aef18252db",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//a[@href=\"/sent/\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1619690882826,
+        "stop" : 1619690892853,
+        "duration" : 10027
+      }
+    }, {
+      "uid" : "ae174312cd620b8d",
+      "status" : "broken",
+      "statusDetails" : "connect ECONNREFUSED 127.0.0.1:9515",
+      "time" : {
+        "start" : 1619690857701,
+        "stop" : 1619690857705,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "7e6ff6131ab6f4ee",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//a[@href=\"/sent/\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1619690800271,
+        "stop" : 1619690810290,
+        "duration" : 10019
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "68406ed48c99536e.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

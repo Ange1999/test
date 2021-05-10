@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620298804326' stop='1620298807246'>
+    <name>Testing hovers</name>
+    <title>Testing hovers</title>
+    <test-cases>
+        <test-case start='1620298804327' status='broken' stop='1620298807246'>
+            <name>Hovers at second block appear</name>
+            <title>Hovers at second block appear</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>user2.moveTo is not a function</message>
+                <stack-trace>TypeError: user2.moveTo is not a function
+                    at Hovers.checkAppearHover (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\pages\hoversPage.js:11:15)
+                    at Context.&lt;anonymous> (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\test\specs\hovers.spec.js:7:19)
+                    at Context.executeSync (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

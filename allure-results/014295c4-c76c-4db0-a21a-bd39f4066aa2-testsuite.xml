@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620306607437' stop='1620306615762'>
+    <name>Testing Dropdown List</name>
+    <title>Testing Dropdown List</title>
+    <test-cases>
+        <test-case start='1620306607438' status='passed' stop='1620306615761'>
+            <name>Select first option and verify</name>
+            <title>Select first option and verify</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

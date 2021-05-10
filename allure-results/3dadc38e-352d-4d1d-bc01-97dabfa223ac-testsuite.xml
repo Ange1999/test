@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620306607437' stop='1620306628572'>
+    <name>Testing Dynamic Controls</name>
+    <title>Testing Dynamic Controls</title>
+    <test-cases>
+        <test-case start='1620306607437' status='passed' stop='1620306622048'>
+            <name>Checking Remove/add</name>
+            <title>Checking Remove/add</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1620306622049' status='passed' stop='1620306628572'>
+            <name>Checking Enable/disable</name>
+            <title>Checking Enable/disable</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

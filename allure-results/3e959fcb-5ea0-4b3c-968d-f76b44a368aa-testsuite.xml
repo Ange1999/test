@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620305822861' stop='1620305834210'>
+    <name>Testing Drag and Drop</name>
+    <title>Testing Drag and Drop</title>
+    <test-cases>
+        <test-case start='1620305822862' status='failed' stop='1620305834209'>
+            <name>Should drag object A to Object B</name>
+            <title>Should drag object A to Object B</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'A' to equal 'B'</message>
+                <stack-trace>AssertionError: expected 'A' to equal 'B'
+                    at DragAndDrop.dragObgAToObjB (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\pages\dragAndDropPage.js:16:12)
+                    at Context.&lt;anonymous> (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\test\specs\drag&amp;drop.spec.js:8:25)
+                    at Context.executeSync (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

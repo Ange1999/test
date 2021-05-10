@@ -1,0 +1,58 @@
+{
+  "uid" : "742a4050fc8ba920",
+  "name" : "Login to the mail box with valid exist data",
+  "fullName" : "Email login/logout.Login to the mail box with valid exist data",
+  "historyId" : "58c19fcddde948d8d90f253109f6008",
+  "time" : {
+    "start" : 1619690780138,
+    "stop" : 1619690791565,
+    "duration" : 11427
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"//div[@id='sideBarContent']\") still not existing after 10000ms",
+  "statusTrace" : "Error: element (\"//div[@id='sideBarContent']\") still not existing after 10000ms\n                    at C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\webdriverio\\build\\middlewares.js:23:32)\n                    at async Element.runCommandWithHooks (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Element.runCommandWithHooks (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Element.wrapCommandFn (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\webdriverio\\build\\middlewares.js:44:12)\n                    at Element.waitForExist (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\webdriverio\\build\\commands\\element\\waitForExist.js:40:17)\n                    at Element.wrapCommandFn (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:60:23)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\webdriverio\\build\\middlewares.js:23:65)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at LoginPage.login (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\test\\pageobjects\\loginPage.js:15:42)\n                    at Context.<anonymous> (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\test\\specs\\login-logout.spec.js:7:19)\n                    at Context.executeSync (C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\a.dzerman\\Desktop\\new\\mastery_week_3\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Email login/logout"
+  }, {
+    "name" : "testClass",
+    "value" : "Email login/logout"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login to the mail box with valid exist data"
+  }, {
+    "name" : "package",
+    "value" : "Email login/logout"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.93"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "742a4050fc8ba920.json",
+  "parameterValues" : [ "chrome-90.0.4430.93" ]
+}

@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1619690780138' stop='1619690791566'>
+    <name>Email login/logout</name>
+    <title>Email login/logout</title>
+    <test-cases>
+        <test-case start='1619690780138' status='broken' stop='1619690791565'>
+            <name>Login to the mail box with valid exist data</name>
+            <title>Login to the mail box with valid exist data</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element ("//div[@id='sideBarContent']") still not existing after 10000ms</message>
+                <stack-trace>Error: element ("//div[@id='sideBarContent']") still not existing after 10000ms
+                    at C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\webdriverio\build\middlewares.js:23:32)
+                    at async Element.runCommandWithHooks (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.elementErrorHandlerCallback (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at Element.waitForExist (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\webdriverio\build\commands\element\waitForExist.js:40:17)
+                    at Element.wrapCommandFn (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\@wdio\sync\build\wrapCommand.js:60:23)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\webdriverio\build\middlewares.js:23:65)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at LoginPage.login (C:\Users\a.dzerman\Desktop\new\mastery_week_3\test\pageobjects\loginPage.js:15:42)
+                    at Context.&lt;anonymous> (C:\Users\a.dzerman\Desktop\new\mastery_week_3\test\specs\login-logout.spec.js:7:19)
+                    at Context.executeSync (C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\a.dzerman\Desktop\new\mastery_week_3\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

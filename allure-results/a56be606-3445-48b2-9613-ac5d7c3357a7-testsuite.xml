@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620292148111' stop='1620292156506'>
+    <name>Testing Dynamic Controls</name>
+    <title>Testing Dynamic Controls</title>
+    <test-cases>
+        <test-case start='1620292148111' status='passed' stop='1620292156505'>
+            <name>Checking checkbox</name>
+            <title>Checking checkbox</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

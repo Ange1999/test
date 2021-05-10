@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620139408161' stop='1620139409525'>
+    <name>Testing Drag and Drop</name>
+    <title>Testing Drag and Drop</title>
+    <test-cases>
+        <test-case start='1620139408161' status='broken' stop='1620139409524'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>objectB.element.DragAndDrop is not a function</message>
+                <stack-trace>TypeError: objectB.element.DragAndDrop is not a function
+                    at DragAndDrop.changePosition (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\pages\dragAndDropPage.js:13:25)
+                    at Context.&lt;anonymous> (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\test\specs\drag&amp;drop.spec.js:8:25)
+                    at Context.executeSync (C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\a.dzerman\Desktop\1212\mastery_week_5\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
